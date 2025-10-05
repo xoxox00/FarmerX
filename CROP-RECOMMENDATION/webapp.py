@@ -71,7 +71,7 @@ def predict_crop(nitrogen, phosphorus, potassium, temperature, humidity, ph, rai
 ## Streamlit code for the web app interface
 def main():  
     # # Setting the title of the web app
-    st.markdown("<h1 style='text-align: center;'>SMART CROP RECOMMENDATIONS", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>SMART CROP RECOMMENDATIONS</h1>", unsafe_allow_html=True)
     
     st.sidebar.title("FarmAssistX")
     # # Input fields for the user to enter the environmental factors
@@ -98,4 +98,5 @@ def main():
 ## Running the main function
 if __name__ == '__main__':
     main()
+
 
